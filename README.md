@@ -27,4 +27,41 @@ Adjust the filtering criteria and methodology according to your specific data an
 | Close        | 2023-01-04    | 125.4975       |                 
 | Close        | 2023-01-05    | 124.1666       |                 
 | Close        | 2023-01-06    | 128.7352       |                 
-| Close        | 2023-01-09    | 129.2616       |                 
+| Close        | 2023-01-09    | 129.2616       |   
+
+
+#### Model Results
+#### Final Portfolio Value
+The final portfolio value is 17.
+
+#### Transition Distribution
+The transition distribution matrix is represented as follows:
+
+|         | Bear      | Flat      | Bull      |
+|---------|-----------|-----------|-----------|
+| Bear    | 0.142857  | 0.742857  | 0.114286  |
+| Flat    | 0.146497  | 0.598726  | 0.254777  |
+| Bull    | 0.125     | 0.678571  | 0.196429  |
+
+This matrix represents the probabilities of transitioning from one state to another.
+
+
+# Forecasting Techniques
+#### Forecasting Using ARIMA
+ARIMA (AutoRegressive Integrated Moving Average) is a popular time series forecasting technique. To forecast using ARIMA:
+
+1. **Data Preprocessing**: Preparing  time series data by checking for stationarity, differencing if necessary, and splitting into training and testing datasets.
+2. **Model Selection**: Choose appropriate ARIMA parameters (p, d, q).
+3. **Model Fitting**: Fit the ARIMA model to the training data using selected parameters.
+4. **Forecasting**: Used the fitted model to forecast future values.
+
+## Forecasting Values using Linear Regression
+Linear Regression is a simple and widely used technique for forecasting. To forecast using Linear Regression:
+
+1. **Data Preparation**: Preparing dataset by selecting relevant features and splitting into training and testing datasets.
+2. **Model Training**: Train a Linear Regression model using the training dataset.
+3. **Model Evaluation**: Evaluate the model's performance using metrics such as RMSE (Root Mean Squared Error) or MAE (Mean Absolute Error) on the testing dataset.
+4. **Forecasting**: Used the trained model to forecast future values.
+
+## Finding the Optimal Buy Indices and Portfolio Value after Forecasting
+After forecasting future values, we can use various optimization techniques to find the optimal buy indices and maximize portfolio value. 
