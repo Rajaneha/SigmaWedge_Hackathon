@@ -59,8 +59,8 @@ ARIMA (AutoRegressive Integrated Moving Average) is a popular time series foreca
 Linear Regression is a simple and widely used technique for forecasting. To forecast using Linear Regression:
 
 1. **Data Preparation**: Preparing dataset by selecting relevant features and splitting into training and testing datasets.
-2. **Model Training**: Train a Linear Regression model using the training dataset.
-3. **Model Evaluation**: Evaluate the model's performance using metrics such as RMSE (Root Mean Squared Error) or MAE (Mean Absolute Error) on the testing dataset.
+2. **Model Training**: Train a Linear Regression model.
+3. **Model Evaluation**: Evaluate the model's performance.
 4. **Forecasting**: Used the trained model to forecast future values.
 
 ## Finding the Optimal Buy Indices and Portfolio Value after Forecasting
