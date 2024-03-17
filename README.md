@@ -1,5 +1,5 @@
 # SigmaWedge_Hackathon
-
+The new modified code are the last 3 code snippets
 List of Stocks
 
 |Sid             |Symbol    | Exchange           | Name              | Delisted |
